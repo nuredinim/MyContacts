@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
      * It starts the CreateList Activity
      * @param view MainActivity view
      */
-    public void openCreateList(View view){
+    public void openAddContact(View view){
         // initialize and Intent for the MainActivity and start it
         intent = new Intent(this, AddContact.class);
         startActivity(intent);
